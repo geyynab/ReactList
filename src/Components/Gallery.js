@@ -90,7 +90,7 @@ class Gallery extends Component {
                                     <input type="number" className="form-control mb-2" value={this.state.harga} onChange={ ev => this.setState({harga: ev.target.value}) } required />
                                     Cover Buku
                                     <input type="url" className="form-control mb-2" placeholder="Masukkan Cover Buku" value={this.state.cover} onChange={ ev => this.setState({cover: ev.target.value}) } required />
-                                    <button className="btn btn-succes btn-block" type="submit">
+                                    <button className="btn btn-info btn-block" type="submit">
                                     Simpan
                                     </button>
                                     </form>
